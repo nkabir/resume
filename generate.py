@@ -170,7 +170,7 @@ HTML_CONTEXT = RenderContext(
 def process_resume(context, yaml_data, preview):
     rendered_resume = context.render_resume(yaml_data)
     if preview:
-        print rendered_resume
+        print(rendered_resume)
     else:
         context.write_to_outfile(rendered_resume)
 
