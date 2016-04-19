@@ -6,8 +6,8 @@
       <span class="name">{{ school.school }}</span> -
       <span class="date">{{ school.date }}</span><br>
       <span class="major">{{ school.major }}</span><br>
-      {% if school.gpa is defined %}
-        GPA: <span class="gpa">{{ school.gpa }}</span>
+      {% if school.notes is defined %}
+        <span class="notes">{{ school.notes }}</span>
       {% endif %}
     </div>
   {% endfor %}

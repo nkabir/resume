@@ -144,6 +144,7 @@ MARKDOWN_CONTEXT = RenderContext(
         ('---', '-'),                      # em dash
         ('--', '-'),                       # en dash
         (r'``([^\']*)\'\'', r'"\1"'),      # quotes
+        (r'\\&', '&'),                     # &
     ]
 )
 
@@ -163,6 +164,7 @@ HTML_CONTEXT = RenderContext(
         ('---', '&mdash;'),                             # em dash
         ('--', '&ndash;'),                              # en dash
         (r'``([^\']*)\'\'', r'"\1"'),                   # quotes
+        (r'\\&', '&amp;'),                              # &
     ]
 )
 

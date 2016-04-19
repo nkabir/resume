@@ -20,31 +20,38 @@ sections:
     items:
       - date: July 2015--Present
         school: University of Washington
-        major: Ph.D. Computer Science
+        major: "Ph.D. Computer Science"
+        notes: "Advisors: Tom Anderson \\& Dan Ports"
 
       - date: August 2011--May 2015
         school: University of Texas at Austin
         major: B.S. Computer Science Honors, B.A. Plan II Honors
-        gpa: "4.0"
+        notes: "Graduated with Highest Honors, GPA: 4.0"
 
 
-  - name: Research Experience
-    type: experience
-    markdowntype: research
-    items:
-      - date: Spring 2014--Spring 2015
-        topic: Distributed Computing
-        about: "Advisor: Lorenzo Alvisi"
-        notes:
-          - "Implemented system outlined in Kapritsos and Junqueria ``Scalable agreement: Towards ordering as a service'' to improve the performance of the previous prototype and demonstrate the scalability of the protocol"
-          - "Undertook an original research project focused on the connection between several recent publications including ``Dynamic atomic storage without consensus'' and ``Generalized lattice agreement,'' proving a quasi-equivalence between the two problems in order to better understand the difficulty that the dynamic setting imposes"
+  - name: Research Interests
+    type: text
+    text: |
+      I am interested in the theory and practice of distributed systems.
 
-      - date: Spring 2012
-        topic: Autonomous Vehicles Stream --- Freshman Research Initiative
-        about: "Supervisor: Piyush Khandelwal"
-        notes:
-          - Developed applications using the Robot Operating System
-          - Partnered in the implementation of a SLAM system for use with the UT-Austin vehicle
+
+  # - name: Research Experience
+  #   type: experience
+  #   markdowntype: research
+  #   items:
+  #     - date: Spring 2014--Spring 2015
+  #       topic: Distributed Computing
+  #       about: "Advisor: Lorenzo Alvisi"
+  #       notes:
+  #         - "Implemented system outlined in Kapritsos and Junqueria ``Scalable agreement: Towards ordering as a service'' to improve the performance of the previous prototype and demonstrate the scalability of the protocol"
+  #         - "Undertook an original research project focused on the connection between several recent publications including ``Dynamic atomic storage without consensus'' and ``Generalized lattice agreement,'' proving a quasi-equivalence between the two problems in order to better understand the difficulty that the dynamic setting imposes"
+
+  #     - date: Spring 2012
+  #       topic: Autonomous Vehicles Stream --- Freshman Research Initiative
+  #       about: "Supervisor: Piyush Khandelwal"
+  #       notes:
+  #         - Developed applications using the Robot Operating System
+  #         - Partnered in the implementation of a SLAM system for use with the UT-Austin vehicle
 
 
   # These are imported by the generate script if a publications file is specified
@@ -52,7 +59,7 @@ sections:
     type: publications
 
 
-  - name: Industry Experience
+  - name: Work Experience
     type: experience
     items:
       - date: Summer 2013
@@ -71,43 +78,55 @@ sections:
           - "Developed a tool to expedite the integration and build process for the Business Process Management (BPM) group using DB2, TeamCity, RTC, and BPM"
           - "Created RESTful APIs in Java"
 
-      - date: 2012--2015
-        about: Various Positions
-        employer: University of Texas at Austin
-        notes:
-          - "Worked for Quest, UT's online assessment system"
-          - Graded in the Department of Mathematics
-          - Served as an Undergraduate Teaching Assistant for the honors section of Research Methods
+      # - date: 2012--2015
+      #   about: Various Positions
+      #   employer: University of Texas at Austin
+      #   notes:
+      #     - "Worked for Quest, UT's online assessment system"
+      #     - Graded in the Department of Mathematics
+      #     - Served as an Undergraduate Teaching Assistant for the honors section of Research Methods
 
 
-  - name: Selected Undergraduate Coursework
-    latextype: doubleitems
+  - name: Teaching Experience
+    type: experience
     items:
-      - Distributed Computing (Graduate)
-      - Programming Languages (Honors)
-      - Algorithms and Theory of Computation (Honors)
-      - Operating Systems (Honors)
-      - Computer Organization and Arch. (Honors)
-      - Artificial Intelligence (Honors)
-      - Autonomous Vehicles
-      - Data Structures (Honors)
-      - Analysis of Programs (Honors)
+      - date: Winter 2016
+        about: Tutor
+        employer: Foundations of Computing II (CSE 312), University of Washington
+      - date: Fall 2013, Fall 2014
+        about: Undergraduate Teaching Assistant (UGS 303)
+        employer: Honors Research Methods, University of Texas at Austin
+      - date: Spring 2013
+        about: Grader
+        employer: Discrete Mathematics (M 325K), University of Texas at Austin
 
 
-  - name: Skills
-    items:
-      - "\\textbf{Languages}: Java, Python, C, C++, Haskell, Scala, Prolog, HTML, CSS, JavaScript, PHP, XML/XSD, SQL, x86 Assembly, \\TeX, Bash, R"
+
+  # - name: Selected Undergraduate Coursework
+  #   latextype: doubleitems
+  #   items:
+  #     - Distributed Computing (Graduate)
+  #     - Programming Languages (Honors)
+  #     - Algorithms and Theory of Computation (Honors)
+  #     - Operating Systems (Honors)
+  #     - Computer Organization and Arch. (Honors)
+  #     - Artificial Intelligence (Honors)
+  #     - Autonomous Vehicles
+  #     - Data Structures (Honors)
+  #     - Analysis of Programs (Honors)
 
 
-  - name: Programming
-    items:
-      - Implemented in Java several classic distributed systems protocols, including Paxos and Three-Phase Commit
-      - Built significant pieces of the JOS operating system including a memory manager, scheduler, file system, and network driver
-      - As a personal project, developed a Chrome Extension to automatically inject MathJax into a webpage to render \LaTeX\ in forums and messaging and email applications
+
+
+  # - name: Programming
+  #   items:
+  #     - Implemented in Java several classic distributed systems protocols, including Paxos and Three-Phase Commit
+  #     - Built significant pieces of the JOS operating system including a memory manager, scheduler, file system, and network driver
+  #     - As a personal project, developed a Chrome Extension to automatically inject MathJax into a webpage to render \LaTeX\ in forums and messaging and email applications
 #      - Created an open-source Python package to automatically generate and send newsletters for the Dean's Scholars Honors Program
 #      - Completed Berkeley's Pac-Man artificial intelligence projects
 #      - Implemented Tetris AI optimized with a genetic algorithm
-      - Partnered in the development of a SLAM implementation in ROS for the UT-Austin robotic vehicle
+      # - Partnered in the development of a SLAM implementation in ROS for the UT-Austin robotic vehicle
 #      - Implemented parts of a pipelined processor
 #      - Optimized C and assembly language code using code motion, blocking, loop unrolling, branch prediction
 #      - Created a web crawler and search engine with relevancy prediction
@@ -122,21 +141,26 @@ sections:
 #      - Plan II Chamber Music Society -- Bassoonist, \textit{2011--2012}
 
 
-  - name: Selected Honors
+  - name: Honors
     subsections:
       - name: Graduate Fellowships
         subitems:
+          - NSF Graduate Research Fellowship Honorable Mention, \textit{2016}
           - Jeff Dean - Heidi Hopper Endowed Regental Fellowship, \textit{2015}
           - Gary Kildall Endowed Fellowship, \textit{2015}
 
-#      - name: Undergraduate Honors Programs
-#        subitems:
-#          - name: Dean's Scholars Honors Program
-#            description: highly-selective research-oriented honors program in the College of Natural Sciences, accepts approximately 40 students per year out of more than 1000 applicants
-#          - name: Turing Scholars Honors Program
-#            description: highly-selective honors program for computer science students
-#          - name: Plan II Honors
-#            description: highly-selective interdisciplinary honors program, contains students across all schools and majors, accepts approximately 175 students per year out of more than 1500 applicants
+      - name: Undergraduate Honors Programs
+        subitems:
+          - Dean's Scholars Honors Program
+          - Turing Scholars Honors Program
+          - Plan II Honors
+
+         # - name: Dean's Scholars Honors Program
+         #   description: highly-selective research-oriented honors program in the College of Natural Sciences, accepts approximately 40 students per year out of more than 1000 applicants
+         # - name: Turing Scholars Honors Program
+         #   description: highly-selective honors program for computer science students
+         # - name: Plan II Honors
+         #   description: highly-selective interdisciplinary honors program, contains students across all schools and majors, accepts approximately 175 students per year out of more than 1500 applicants
 
       - name: Undergraduate Awards
         subitems:
@@ -146,6 +170,7 @@ sections:
 #            notes:
 #              - Recognizes outstanding academic achievement by an undergraduate in a course
 #              - 20 awarded per year in the entire college comprised of over 13,000 undergraduate students
+
 
       - name: Undergraduate Scholarships
         subitems:
@@ -158,4 +183,9 @@ sections:
           - Bettie Johnson Halsell Endowed Presidential Scholarship in Liberal Arts, \textit{2013}
           - Renee Wolfe Zelman and Norman Zelman Endowed Scholarship, \textit{2012}
           - Joe P. Liberty Endowed Scholarship in Plan II, \textit{2012}
+
+
+  - name: Technical Proficiencies
+    items:
+      - "\\textbf{Languages}: Java, Python, C, C++, Haskell, Scala, Prolog, HTML, CSS, JavaScript, PHP, XML/XSD, SQL, x86 Assembly, \\TeX, Bash, R"
 ...
