@@ -20,7 +20,7 @@ endif
 
 .PHONY: all public viewpdf clean
 
-all: $(PDF) $(MD)
+all: $(PDF) $(MD) $(HTML)
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
