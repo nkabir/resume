@@ -1,7 +1,7 @@
 About
 -----
 This repo contains the source I use to automatically generate [my resume]
-(http://ellismichael.com/resume/) as a webpage and PDF from YAML input.
+(http://ellismichael.com/cv/) as a webpage and PDF from YAML input.
 
 It was forked from [bamos/cv](https://github.com/bamos/cv) and has been heavily
 modified to fit my use case. Many of the features that were in the original repo
