@@ -11,7 +11,9 @@
         ~< endif >~
         << pub.authors >>.
         << pub.venuetype >>
-        << pub.venue >>,
+        << pub.venue >>%
+        ~< if pub.venueshort is defined >~\ \mbox{(<< pub.venueshort>>)}~< endif >~%
+        ~< if pub.venuelocation is defined >~, << pub.venuelocation>>~< endif >~.
         << pub.month >>
         << pub.year >>.
       }
