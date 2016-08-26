@@ -14,11 +14,13 @@
 #   - venuelocation
 #   - abstract
 #   - url
+#
+# TODO: make sure these get processed in time order for resume
 ################################################################################
 
 - title: "Fast Replication with NOPaxos: Replacing Consensus with Network Ordering"
   authors: "Jialin Li, Ellis Michael, Adriana Szekeres, Naveen Kr. Sharma, and Dan R. K. Ports"
-  key: nopaxos2016
+  key: nopaxos16
   year: 2016
   month: November
   venuetype: Proceedings of the
@@ -26,21 +28,48 @@
   venueshort: OSDI '16
   venuelocation: Savannah, GA, USA
   abstract: >
-      Distributed applications use replication, implemented by protocols like
-      Paxos, to ensure data availability and transparently mask server failures.
-      This paper presents a new approach to achieving replication in the data
-      center without the performance cost. Our work carefully divides the
-      responsibility between the network layer and replication protocol. The
-      network is responsible for ordering requests but not ensuring reliable
-      delivery – which we formalize as a new ordered unreliable multicast (OUM)
-      model and show can be achieved with near-zero-cost in the data center.
-      This guarantee enables our new replication protocol, Network-Ordered Paxos
-      (NOPaxos), which exploits network ordering to provide strongly consistent
-      replication without coordination. The resulting system not only
-      simultaneously outperforms both latency- and throughput-optimized
-      protocols on their respective metrics, it also provides throughput within
-      2% and latency within 16 μs of an unreplicated system – providing
-      replication without the performance cost.
+    Distributed applications use replication, implemented by protocols like
+    Paxos, to ensure data availability and transparently mask server failures.
+    This paper presents a new approach to achieving replication in the data
+    center without the performance cost. Our work carefully divides the
+    responsibility between the network layer and replication protocol. The
+    network is responsible for ordering requests but not ensuring reliable
+    delivery – which we formalize as a new ordered unreliable multicast (OUM)
+    model and show can be achieved with near-zero-cost in the data center. This
+    guarantee enables our new replication protocol, Network-Ordered Paxos
+    (NOPaxos), which exploits network ordering to provide strongly consistent
+    replication without coordination. The resulting system not only
+    simultaneously outperforms both latency- and throughput-optimized protocols
+    on their respective metrics, it also provides throughput within 2% and
+    latency within 16 μs of an unreplicated system – providing replication
+    without the performance cost.
+
+
+- title: "Providing Stable Storage for the Diskless Crash-Recovery Failure Model"
+  authors: Ellis Michael, Dan R. K. Ports, Naveen Kr. Sharma, and Adriana Szekeres
+  key: disklesstr16
+  year: 2016
+  month: August
+  venuetype: Technical Report
+  venue: UW-CSE-TR-16-08-02, University of Washington CSE
+  url: http://ellismichael.com/assets/papers/diskless-tr16.pdf
+  abstract: >
+    Many classic protocols in the fault tolerant distributed computing
+    literature assume a Crash-Fail model in which processes either are up, or
+    have crashed and are permanently down. While this model is useful, it does
+    not fully capture the difficulties many real systems must contend with. In
+    particular, real-world systems are long-lived and must have a recovery
+    mechanism so that crashed processes can rejoin the system and restore its
+    fault-tolerance. When processes are assumed to have access to stable storage
+    that is persistent across failures, the Crash-Recovery model is trivial.
+    However, because disk failures are common and because having a disk on a
+    protocol's critical path is often performance concern, diskless recovery
+    protocols are needed. While such protocols do exist in the state machine
+    replication literature, several well-known protocols have flawed recovery
+    mechanisms. We examine these errors to elucidate the problem of diskless
+    recovery and present our own protocol for providing virtual stable storage,
+    transforming any protocol in the Crash-Recovery with stable storage model
+    into a protocol in the Diskless Crash-Recover model.
 
 
 - title: Scaling Leader-Based Protocols for State Machine Replication
