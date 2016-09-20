@@ -18,7 +18,7 @@
 # TODO: make sure these get processed in time order for resume
 ################################################################################
 
-- title: "Fast Replication with NOPaxos: Replacing Consensus with Network Ordering"
+- title: "Just Say NO to Paxos Overhead: Replacing Consensus with Network Ordering"
   authors: "Jialin Li, Ellis Michael, Adriana Szekeres, Naveen Kr. Sharma, and Dan R. K. Ports"
   key: nopaxos16
   year: 2016
