@@ -22,7 +22,7 @@ sections:
         employer: Autonomy Capital Research
         location: New York, NY
         notes:
-          - "Conceived and executed open-source and services-based roadmap for technology and analytics effort to grow from \\$500 million AUM to over \\$3 billion."
+          - "Conceived and executed open-source and services-based roadmap for technology and analytics effort to grow business from \\$500 million AUM to over \\$3 billion."
           - "Led development of unified time series database for market data and analytics."
           - "Updated firm's security posture to accommodate SEC's Cybersecurity Guidance including end-point threat heuristics, two-factor authentication, SSO, and secure firewalls."
           - "Migrated back-end services to Linux and Docker containers to further reduce cybersecurity risk and attack surface area."
@@ -37,7 +37,6 @@ sections:
         location: New York, NY
         notes:
           - "Unified internal and external cross-asset and cross-market trading resources onto one coherent platform."
-          - "Identified and built core functionalities that served as the foundation for technology in our group."
           - "Augmented relational storage with a hybrid system that integrated disparate data sources: highly structured (time series), structured (transactions), semi-structured (terms and conditions), and free text (news and commentary)."
           - "Conceived and built information architecture (IA) and information retrieval (IR) strategy at Merrill Lynch for data used in trade capture, scenario analysis, and risk management. Built unified search service using an open-source search engine with custom indexes and facets for financial data."
           - "Replaced batch processing with live calculations by serving computed results via a tuple-space service built with Jini and JavaSpaces. Services were exposed via RESTful API to enable consumption by spreadsheets, scripts, and other services."
@@ -149,6 +148,7 @@ sections:
       - name: Personal
         subitems:
           - Studied at the French Culinary Institute, \textit{La Technique} and \textit{Pastries}, 1996.
+          - Owner, Double Wide Southern Kitchen \& Bar, East Village, New York. 
           - New York City Marathon, 1999. (4h23m)
 
 ...
