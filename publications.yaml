@@ -18,32 +18,13 @@
 # TODO: make sure these get processed in time order for resume
 ################################################################################
 
-- title: "Just Say NO to Paxos Overhead: Replacing Consensus with Network Ordering"
-  authors: "Jialin Li, Ellis Michael, Adriana Szekeres, Naveen Kr. Sharma, and Dan R. K. Ports"
+- title: "Capture of Rare Cells in Suspension with Antibody-coated Polystyrene Beads"
+  authors: "Gomez SM, Choy G, Kabir N, Leonard EF"
   key: nopaxos16
-  year: 2016
-  month: November
-  venuetype: Proceedings of the
-  venue: 12th USENIX Symposium on Operating Systems Design and Implementation
-  venueshort: OSDI '16
-  venuelocation: Savannah, GA, USA
-  abstract: >
-    Distributed applications use replication, implemented by protocols like
-    Paxos, to ensure data availability and transparently mask server failures.
-    This paper presents a new approach to achieving replication in the data
-    center without the performance cost. Our work carefully divides the
-    responsibility between the network layer and replication protocol. The
-    network is responsible for ordering requests but not ensuring reliable
-    delivery – which we formalize as a new ordered unreliable multicast (OUM)
-    model and show can be achieved with near-zero-cost in the data center. This
-    guarantee enables our new replication protocol, Network-Ordered Paxos
-    (NOPaxos), which exploits network ordering to provide strongly consistent
-    replication without coordination. The resulting system not only
-    simultaneously outperforms both latency- and throughput-optimized protocols
-    on their respective metrics, it also provides throughput within 2% and
-    latency within 16 μs of an unreplicated system – providing replication
-    without the performance cost.
-
+  year: 1999
+  month: March
+  venuetype: Journal,
+  venue: Biotechnology Progress
 
 - title: "Providing Stable Storage for the Diskless Crash-Recovery Failure Model"
   authors: Ellis Michael, Dan R. K. Ports, Naveen Kr. Sharma, and Adriana Szekeres

@@ -3,50 +3,79 @@ name:
   first: Norman
   last: Kabir
 
-
-website: rocketknowledge.com
+website: twitter.com/nkabir
 github: nkabir
-linkedin: nkabir
-
+linkedin: norman-kabir-a48236
+email: nkabir@gmail.com
 
 # Markdown details
 pdf: resume.pdf
 source: https://github.com/nkabir
 
-
 sections:
+  - name: Professional Experience
+    type: experience
+    items:
+      - date: 2009-2016
+        about: Chief Technology Officer
+        employer: Autonomy Capital Research
+        location: New York, NY
+        notes:
+          - "Conceived and executed open-source and services-based roadmap for technology and analytics effort to grow from \\$500 million AUM to over \\$3 billion."
+          - "Led development of unified time series database for market data and analytics."
+          - "Updated firm's security posture to accommodate SEC's Cybersecurity Guidance including end-point threat heuristics, two-factor authentication, SSO, and secure firewalls."
+          - "Migrated back-end services to Linux and Docker containers to further reduce cybersecurity risk and attack surface area."
+          - "Implemented Disaster Recovery and Business Continuity Planning including continuous backups and automatic network failover."
+          - "Managed staff in US, UK, and Europe to support risk, trading, and operations."
+          - "Built two data centers (US, UK) to host critical services with internal OSPF and external BGP routing."
+
+      - date: 2007-2009
+        about: Vice President, Global Proprietary Trading Group
+        employer: Merrill Lynch
+        location: New York, NY
+        notes:
+          - "Unified internal and external cross-asset and cross-market trading resources onto one coherent platform. Identified and built core functionalities that served as the foundation for technology in our group."
+          - "Augmented relational storage with a hybrid system that integrated disparate data sources: highly structured (time series), structured (transactions), semi-structured (terms and conditions), and free text (news and commentary).
+			Achieved greater scalability, lower latency, and reliable distribution with technology stack built on open-source technologies."
+          - ""
+
+      - date: 2006-2007
+        about: Principal Engineer
+        employer: Pelago, Inc.
+        location: Seattle, WA
+        notes:
+          - "Venture-backed startup focused on building social networking
+			application that unifies mobile and web experience."
+          - "Created RESTful APIs in Java"
+
+      - date: 2001-2006
+        about: Founder
+        employer: RocketKnowledge Research
+        location: New York, NY
+        notes:
+          - "Venture-backed startup focused on building social networking
+			application that unifies mobile and web experience."
+          - "Created RESTful APIs in Java"
+
+
+
   - name: Education
     type: education
     items:
-      - date: July 2015--Present
-        school: University of Washington
-        major: "Ph.D. Computer Science"
-        notes: "Advisors: Tom Anderson \\& Dan Ports"
+      - date: 1992 - 1994
+        school: Columbia University
+        major: "Ph.D. Candidate Biogineering (ABD)"
+        notes: "Advisor: Edward F. Leonard"
 
-      - date: August 2011--May 2015
-        school: University of Texas at Austin
-        major: B.S. Computer Science Honors, B.A. Plan II Honors
-        notes: "Graduated with Highest Honors, GPA: 4.0"
+      - date: 1988 - 1992
+        school: Williams College
+        major: B.A. in Chemistry
+        notes: "Graduated with Honors"
 
+  # These are imported by the generate script if a publications file is specified
+  - name: Publications
+    type: publications
 
-  - name: Work Experience
-    type: experience
-    items:
-      - date: Summer 2013
-        about: Software Engineering Intern
-        employer: Google
-        location: Mountain View
-        notes:
-          - "Developed a full-text search module for Google's Course Builder, a Google App Engine application"
-          - "Worked across the application's entire stack in CSS, HTML (with Jinja templating), Javascript, and Python"
-
-      - date: Summer 2012
-        about: Software Engineering Intern
-        employer: IBM
-        location: Austin
-        notes:
-          - "Developed a tool to expedite the integration and build process for the Business Process Management (BPM) group using DB2, TeamCity, RTC, and BPM"
-          - "Created RESTful APIs in Java"
 
   - name: Technical Proficiencies
     items:
