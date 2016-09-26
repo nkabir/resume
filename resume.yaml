@@ -1,17 +1,17 @@
 ---
 name:
-  first: Ellis
-  last: Michael
+  first: Norman
+  last: Kabir
 
 
-website: ellismichael.com
-github: emichael
-linkedin: rellismichael
+website: rocketknowledge.com
+github: nkabir
+linkedin: nkabir
 
 
 # Markdown details
-pdf: /assets/cv.pdf
-source: https://github.com/emichael/resume
+pdf: resume.pdf
+source: https://github.com/nkabir
 
 
 sections:
@@ -27,17 +27,6 @@ sections:
         school: University of Texas at Austin
         major: B.S. Computer Science Honors, B.A. Plan II Honors
         notes: "Graduated with Highest Honors, GPA: 4.0"
-
-
-  - name: Research Interests
-    type: text
-    text: |
-      I am interested in the theory and practice of distributed systems.
-
-
-  # These are imported by the generate script if a publications file is specified
-  - name: Publications
-    type: publications
 
 
   - name: Work Experience
@@ -59,6 +48,9 @@ sections:
           - "Developed a tool to expedite the integration and build process for the Business Process Management (BPM) group using DB2, TeamCity, RTC, and BPM"
           - "Created RESTful APIs in Java"
 
+  - name: Technical Proficiencies
+    items:
+      - "\\textbf{Languages}: Java, Python, C, C++, Haskell, Scala, Prolog, HTML, CSS, JavaScript, PHP, XML/XSD, SQL, x86 Assembly, \\TeX, Bash, R"
 
   - name: Teaching Experience
     type: experience
@@ -107,7 +99,4 @@ sections:
           - Joe P. Liberty Endowed Scholarship in Plan II, \textit{2012}
 
 
-  - name: Technical Proficiencies
-    items:
-      - "\\textbf{Languages}: Java, Python, C, C++, Haskell, Scala, Prolog, HTML, CSS, JavaScript, PHP, XML/XSD, SQL, x86 Assembly, \\TeX, Bash, R"
 ...
