@@ -7,6 +7,7 @@ website: twitter.com/nkabir
 github: nkabir
 linkedin: norman-kabir-a48236
 email: nkabir@gmail.com
+mobile: 917~587~5862
 
 # Markdown details
 pdf: resume.pdf
@@ -35,29 +36,74 @@ sections:
         location: New York, NY
         notes:
           - "Unified internal and external cross-asset and cross-market trading resources onto one coherent platform. Identified and built core functionalities that served as the foundation for technology in our group."
-          - "Augmented relational storage with a hybrid system that integrated disparate data sources: highly structured (time series), structured (transactions), semi-structured (terms and conditions), and free text (news and commentary).
-			Achieved greater scalability, lower latency, and reliable distribution with technology stack built on open-source technologies."
-          - ""
+          - "Augmented relational storage with a hybrid system that integrated disparate data sources: highly structured (time series), structured (transactions), semi-structured (terms and conditions), and free text (news and commentary). Achieved greater scalability, lower latency, and reliable distribution with technology stack built on open-source technologies."
+          - "Conceived and built information architecture (IA) and information retrieval (IR) strategy at Merrill Lynch for data used in trade capture, scenario analysis, and risk management. Built unified search service using an open-source search engine with custom indexes and facets for financial data."
+          - "Replaced batch processing with live calculations by serving computed results via a tuple-space service built with Jini and JavaSpaces. Services were exposed via RESTful API to enable consumption by spreadsheets, scripts, and other services."
+          - "Built full software life-cycle management environment to orchestrate development and support including source contol, code reviews, configuration, issue tracking, discussion forums, wiki, and RSS syndication feeds."
 
       - date: 2006-2007
         about: Principal Engineer
         employer: Pelago, Inc.
         location: Seattle, WA
         notes:
-          - "Venture-backed startup focused on building social networking
-			application that unifies mobile and web experience."
-          - "Created RESTful APIs in Java"
+          - "Venture-backed startup focused on building social networking application that unifies mobile and web experience. Led infrastructure development for both mobile and server technologies."
+          - "Helped build company from angel stage through \\$7.5 million Series A round with Kleiner Perkins Caufield \\& Byers, Trilogy Equity Partners, and Bezos Expeditions."
+          - "Developed custom graphics and font library to ensure consistent user experience across devices."
+          - "The company successfully completed a \\$15.2 million Series B round with T-Mobile Ventures and was acquired by Groupon."
 
       - date: 2001-2006
         about: Founder
         employer: RocketKnowledge Research
         location: New York, NY
         notes:
-          - "Venture-backed startup focused on building social networking
-			application that unifies mobile and web experience."
-          - "Created RESTful APIs in Java"
+          - "Directed efforts in new product development, market research, and software engineering process for financial technology startup with over \\$2 million in revenue."
+          - "Collaborated with researchers from MIT and Sun Laboratories."
+          - "Developed high-performance execution platform for real-time strategies that incorporate models of market microstruture and optimal trading."
+          - "Directed team in developing scalable web-based, unstructured information management application for financial news and research. Overlayed semantic relationships using indexed metadata and user-defined tags."
 
+      - date: 2000-2001
+        about: Founder
+        employer: Eredyne Corporation
+        location: New York, NY
+        notes:
+          - "Enlisted major financial institutions to improve collaboration between market participants by providing secure infrastructure that included cryptographically-secure authentication, authorization, and auditing services."
+          - "Raised financing, gave talks, negotiated terms, and retained major New York law firm in exchange for equity stake."
+          - "Implemented platform for secure e-mail, instant messaging, document sharing, and collaboration."
+          - "Designed access control that supported local namespace management while enabling privileged delegation across administrative domains."
+          - "Created application deployed via Java WebStart that transparently managed certificates, encryption, digital signatures, and timestamps."
 
+      - date: 1999-2000
+        about: CEO
+        employer: Cambix, Inc.
+        location: New York, NY
+        notes:
+          - "Joined as senior developer; promoted to CTO and CEO within ten months."
+          - "Led sales and engineering teams in New York and London to build and deliver anlaytic solutions for asset managers and hedge funds."
+          - "Built terms and conditions database using data provided by FT Interactive."
+          - "Developed comprehensive suite of financial analytics over the Internet."
+
+      - date: 1998-1999
+        about: Proprietary Trader
+        employer: Delta Global Trading (Paloma Partners)
+        location: Boston, MA
+        notes:
+          - "Led emerging markets initiative for relative-value hedge fund with \\$200 million in assets under management."
+          - "Developed mathematical and computer-based models for identifying market opportunities in fixed-income markets."
+          - "Traded sovereign and Brady bonds in Latin America."
+          - "Arranged financing and gave presentations to explain strategies and associated risks."
+          - "Spearheaded initiatives to migrated Excel-based tools to more scalable server-based architecture."
+
+      - date: 1994-1997
+        about: Proprietary Trader
+        employer: D. E. Shaw \& Co.
+        location: New York, NY
+        notes:
+          - "Traded diverse set of asset classes including equities, fixed-income, swaps, futures, and repos"
+          - "Developed software to identify and visualize market opportunities."
+          - "Strategies included European Monetary Union through German-French swap spreads against German-Italian forward volatility."
+          - "Traded issues on German government curve and Spanish BONO basis trades."
+          - "Built term structure models using various methodologies including Monte Carlo methods and stochastic modeling."
+          - "Traded Japanese equity warrants, convertible bonds, equities, and futures. Designed experiments to refine execution strategies involving slippage."
 
   - name: Education
     type: education
@@ -65,67 +111,42 @@ sections:
       - date: 1992 - 1994
         school: Columbia University
         major: "Ph.D. Candidate Biogineering (ABD)"
-        notes: "Advisor: Edward F. Leonard"
+        notes: "Isolated fetal erythrocytes from maternal circulation as a safe, non-invasive alternative to amniocentesis."
 
       - date: 1988 - 1992
         school: Williams College
-        major: B.A. in Chemistry
-        notes: "Graduated with Honors"
+        major: B.A. in Chemistry with Honors
+        notes: "Research focused on discovering new transition metal catalysts to promote stereo-selective reactions for asymmetric synthesis in pharmaceutical applications."
 
   # These are imported by the generate script if a publications file is specified
   - name: Publications
     type: publications
 
-
   - name: Technical Proficiencies
     items:
-      - "\\textbf{Languages}: Java, Python, C, C++, Haskell, Scala, Prolog, HTML, CSS, JavaScript, PHP, XML/XSD, SQL, x86 Assembly, \\TeX, Bash, R"
+      - "\\textbf{Languages}: Java, Python, C, C++, Prolog, HTML, CSS, JavaScript, XML/XSD, SQL, \\LaTeX, Bash"
+      - "\\textbf{Frameworks}: Jersey (JAX-RS), Pylons, OpenGamma, Zope, Plone"
+      - "\\textbf{Operating Systems}: Linux, FreeBSD, MacOS, Windows"
+      - "\\textbf{Data Storage}: PostgreSQL, RethinkDB, BerkeleyDB, Elastic, MySQL, OpenDJ, OpenLDAP"
+
 
   - name: Teaching Experience
     type: experience
     items:
-      - date: Winter 2016
-        about: Tutor
-        employer: Foundations of Computing II (CSE 312), University of Washington
-      - date: Fall 2013, Fall 2014
-        about: Undergraduate Teaching Assistant
-        employer: Honors Research Methods (UGS 303), University of Texas at Austin
-      - date: Spring 2013
-        about: Grader
-        employer: Discrete Mathematics (M 325K), University of Texas at Austin
+      - date: Fall 2009, Fall 2010, Fall 2011
+        about: Adjunct Professor, Software Engineering for Finance
+        employer: Master of Financial Engineering, Baruch College
 
 
-  - name: Honors
+  - name: Distinctions and Honors
     subsections:
-      - name: Graduate Fellowships
+      - name: Academic Awards
         subitems:
-          - NSF Graduate Research Fellowship Honorable Mention, \textit{2016}
-          - Jeff Dean - Heidi Hopper Endowed Regental Fellowship, \textit{2015}
-          - Gary Kildall Endowed Fellowship, \textit{2015}
+          - T.J. Tomkowitz Prize for Graduate Research, Columbia University, 1994.
 
-      - name: Undergraduate Honors Programs
+      - name: Personal
         subitems:
-          - Dean's Scholars Honors Program
-          - Turing Scholars Honors Program
-          - Plan II Honors
-
-      - name: Undergraduate Awards
-        subitems:
-          - Dean's Honored Graduate, College of Natural Sciences
-          - Distinguished College Scholar in the College of Natural Sciences, \textit{2012--2014}
-          - College of Natural Science Book Award | Graduate Distributed Computing, \textit{Fall 2013}
-
-      - name: Undergraduate Scholarships
-        subitems:
-          - Frances Rather Seybold and Frances Randolph Rather Seybold Endowed Presidential Scholarship, \textit{2014}
-          - Eva Stevenson Woods Endowed Presidential Scholarship, \textit{2014}
-          - Michelle K. Brock and Sophia and G.W. Brock Endowed Presidential Scholarship, \textit{2014 and 2013}
-          - Kevin E. Underhill Memorial Endowed Presidential Scholarship, \textit{2014 and 2013}
-          - Chevron Scholar, \textit{2014 and 2012}
-          - Ralph R. Nelson Endowed Presidential Scholarship, \textit{2013}
-          - Bettie Johnson Halsell Endowed Presidential Scholarship in Liberal Arts, \textit{2013}
-          - Renee Wolfe Zelman and Norman Zelman Endowed Scholarship, \textit{2012}
-          - Joe P. Liberty Endowed Scholarship in Plan II, \textit{2012}
-
+          - Studied at the French Culinary Institute, \textit{La Technique} and \textit{Pastries}, 1996.
+          - New York City Marathon, 1999. (4h23m)
 
 ...

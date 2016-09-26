@@ -26,54 +26,11 @@
   venuetype: Journal,
   venue: Biotechnology Progress
 
-- title: "Providing Stable Storage for the Diskless Crash-Recovery Failure Model"
-  authors: Ellis Michael, Dan R. K. Ports, Naveen Kr. Sharma, and Adriana Szekeres
+- title: "Alpha Theory - An Origin of Life Model Based on Statistical Mechanics"
+  authors: "Kabir N"
   key: disklesstr16
-  year: 2016
-  month: August
-  venuetype: Technical Report
-  venue: UW-CSE-TR-16-08-02, University of Washington CSE
-  url: http://www.cs.washington.edu/public_files/grad/tech_reports/diskless-smr.pdf
-  abstract: >
-    Many classic protocols in the fault tolerant distributed computing
-    literature assume a Crash-Fail model in which processes either are up, or
-    have crashed and are permanently down. While this model is useful, it does
-    not fully capture the difficulties many real systems must contend with. In
-    particular, real-world systems are long-lived and must have a recovery
-    mechanism so that crashed processes can rejoin the system and restore its
-    fault-tolerance. When processes are assumed to have access to stable storage
-    that is persistent across failures, the Crash-Recovery model is trivial.
-    However, because disk failures are common and because having a disk on a
-    protocol's critical path is often performance concern, diskless recovery
-    protocols are needed. While such protocols do exist in the state machine
-    replication literature, several well-known protocols have flawed recovery
-    mechanisms. We examine these errors to elucidate the problem of diskless
-    recovery and present our own protocol for providing virtual stable storage,
-    transforming any protocol in the Crash-Recovery with stable storage model
-    into a protocol in the Diskless Crash-Recover model.
+  year: 2002
+  month: July
+  venuetype: Technical Report,
+  venue: Rockefeller University
 
-
-- title: Scaling Leader-Based Protocols for State Machine Replication
-  authors: "Ellis Michael. Supervisor: Lorenzo Alvisi"
-  key: michaelthesis15
-  year: 2015
-  month: May
-  venuetype: Undergraduate Honors Thesis,
-  venue: University of Texas at Austin
-  url: http://repositories.lib.utexas.edu/bitstream/handle/2152/29985/ellis_michael_thesis.pdf
-  abstract: >
-    State machine replication is a technique used to guarantee the availability
-    of a system even in the presence of faults. Agreement protocols are often
-    used to implement state machine replication. However, the throughput of many
-    agreement protocols, such as Paxos, does not scale with the number of
-    machines available to the system. Systems whose throughput does scale often
-    provide weaker consistency guarantees than state machine replication's
-    linearizability. These weaker guarantees, such as eventual consistency, make
-    the job of the application programmer much more difficult.
-
-    Kapritsos and Junqueira previously proposed a protocol which uses an
-    agreement protocol as a primitive and does scale. In this thesis, I describe
-    my novel implementation of this protocol as well as the optimizations that
-    were necessary to achieve scalability. The results of my experiments with
-    this system show modest but promising evidence that the throughput of this
-    system can, indeed, scale linearly with the number of machines.
