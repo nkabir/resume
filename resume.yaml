@@ -148,7 +148,7 @@ sections:
       - name: Personal
         subitems:
           - Studied at the French Culinary Institute, \textit{La Technique} and \textit{Pastries}, 1996.
-          - Owner, Double Wide Southern Kitchen \& Bar, East Village, New York. 
+          - Owner, Double Wide Southern Kitchen \& Bar, East Village, New York.
           - New York City Marathon, 1999. (4h23m)
 
 ...
