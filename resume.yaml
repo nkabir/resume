@@ -29,14 +29,16 @@ sections:
           - "Implemented Disaster Recovery and Business Continuity Planning including continuous backups and automatic network failover."
           - "Managed staff in US, UK, and Europe to support risk, trading, and operations."
           - "Built two data centers (US, UK) to host critical services with internal OSPF and external BGP routing."
+          - "Created iPython notebook-based research platform for risk, economics, and strategy development."
 
       - date: 2007-2009
         about: Vice President, Global Proprietary Trading Group
-        employer: Merrill Lynch
+        employer: Merrill Lynch (BAML)
         location: New York, NY
         notes:
-          - "Unified internal and external cross-asset and cross-market trading resources onto one coherent platform. Identified and built core functionalities that served as the foundation for technology in our group."
-          - "Augmented relational storage with a hybrid system that integrated disparate data sources: highly structured (time series), structured (transactions), semi-structured (terms and conditions), and free text (news and commentary). Achieved greater scalability, lower latency, and reliable distribution with technology stack built on open-source technologies."
+          - "Unified internal and external cross-asset and cross-market trading resources onto one coherent platform."
+          - "Identified and built core functionalities that served as the foundation for technology in our group."
+          - "Augmented relational storage with a hybrid system that integrated disparate data sources: highly structured (time series), structured (transactions), semi-structured (terms and conditions), and free text (news and commentary)."
           - "Conceived and built information architecture (IA) and information retrieval (IR) strategy at Merrill Lynch for data used in trade capture, scenario analysis, and risk management. Built unified search service using an open-source search engine with custom indexes and facets for financial data."
           - "Replaced batch processing with live calculations by serving computed results via a tuple-space service built with Jini and JavaSpaces. Services were exposed via RESTful API to enable consumption by spreadsheets, scripts, and other services."
           - "Built full software life-cycle management environment to orchestrate development and support including source contol, code reviews, configuration, issue tracking, discussion forums, wiki, and RSS syndication feeds."
@@ -133,9 +135,9 @@ sections:
   - name: Teaching Experience
     type: experience
     items:
-      - date: Fall 2009, Fall 2010, Fall 2011
+      - date: Fall 2010, Fall 2011, Fall 2012
         about: Adjunct Professor, Software Engineering for Finance
-        employer: Master of Financial Engineering, Baruch College
+        employer: Master of Financial Engineering, Baruch College (CUNY)
 
 
   - name: Distinctions and Honors
